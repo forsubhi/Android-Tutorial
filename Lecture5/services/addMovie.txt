@@ -1,0 +1,6 @@
+var movie = create("movie");
+movie.year = input.year;
+movie.genre = input.genre;
+movie.title = input.title;
+movie = save(movie);
+return movie;
